@@ -1,0 +1,91 @@
+/* CSS Document */
+body{background-color:#DEB887;
+ font-size:14px;
+ margin: 10px
+ }
+h2{
+	margin:0;
+	font-size:16px;
+	font-weight:bold;
+	padding: 2px 0px 0px 10px;
+	background: url(titbg.jpg) 1px 1px no-repeat;
+}
+h3{
+	margin: 0;
+	font-weight: bold;
+	line-height:18px;
+	font-size: 14px;
+}
+p{
+	margin: 0px;
+	padding-left:2em
+}
+.row{
+	padding-left:2em;
+	padding-top: 6px;
+}
+#title{
+	font-size: 18px;
+	line-height:41px;
+	font-weight: bold;
+	letter-spacing: 6px;
+}
+#header,#general,#objective,#skillareas,#history,#awards,#lastModified,#copyright{
+	background-color: #fffff0;
+}
+#header{
+	text-align: right;
+	margin-bottom: 6px;
+	background: #fffff0 url(resume.gif) no-repeat 1px 0px;
+}
+#general{
+	background-color: #DE7D00;
+	border: white 1px solid;
+	color: #fffff0;
+	width:40%;
+	float: right;
+	margin: 0px 0px 6px
+}
+#objective{
+	background-color: #fffff0;
+	width: 59%;
+	float: left;
+	margin: 0px 0px 6px;
+}
+#skillareas{
+	background-color: #fffff0;
+	width:59%;
+	float: left;
+	margin-bottom:6px
+}
+#history{
+	background-color: #fffff0;
+	width:40%;
+	float:right;
+	border: white 1px solid;
+}
+#awards{
+	background-color: #fffff0;
+	clear: both;
+	margin-bottom: 6px;
+}
+h1,ul, ol{
+margin: 0;
+}
+
+ol,ul,li{
+margin-left: 0px !important;
+margin-left: 15px;
+line-height:25px;
+}
+#lastModified,#copyright{
+	padding:5px 10px;
+	text-align: right;
+}
+a:link,a:visited{
+	color:#fffff0;
+}
+a:hover,a:active{
+	color:white;
+	text-decoration: none;
+}

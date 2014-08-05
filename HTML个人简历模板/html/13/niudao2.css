@@ -1,0 +1,204 @@
+/* CSS Document */
+
+body {
+	
+	
+	BORDER-RIGHT: #fff 1px solid;
+	BORDER-LEFT: #fff 1px solid;
+	TEXT-ALIGN: center;
+	margin-LEFT:30px;
+	margin-right:30px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #A6A680;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+A.link {
+	
+}
+A.visited {
+	
+}
+A.hover {
+	
+}
+A.active {
+	
+}
+p{
+    margin: 0px;
+color: #fff;
+}
+UL {
+    list-style: none;color: #fff;
+	margin: 5px;
+	padding: 0px;    
+	margin-left:20px
+	
+}
+OL {
+    
+	TEXT-ALIGN: left;color: #fff;
+	margin-left:100px
+	
+}
+LI {
+    margin: 5px; 
+    font-size: 12px;
+	TEXT-ALIGN: left;color: #fff;
+	margin-left:0px
+}
+H1{
+	font-size: 12px;color: #fff;
+    TEXT-ALIGN: left;
+}
+h2{
+    margin:5px;font-size: 15px;TEXT-ALIGN: left;color: #fff;margin-left:20px
+}
+
+h3{
+   margin:0px;
+	font-size: 12px;
+	TEXT-ALIGN: left;
+	margin-left:0px;
+	color: #fff;
+}
+#row{
+    MARGIN:5px
+}
+#header {
+	BORDER-RIGHT: #999999 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #999999 0px solid; PADDING-LEFT: 0px; BACKGROUND:#A6A680; PADDING-BOTTOM: 10px;PADDING-TOP:10px; MARGIN: 0px; BORDER-LEFT: #999999 0px solid; BORDER-BOTTOM: #000 0px solid;WIDTH: 700px; PADDING-TOP: 0px; TEXT-ALIGN: right;color: #fff;
+}
+#title {
+	TEXT-ALIGN: center ; color: #fff;
+}
+
+.name,.nickname,.birthday,.telphone,.mobile,.email,.qq
+{
+   WIDTH:200px; HEIGHT: 10px;TEXT-ALIGN: left;font-size: 13px;MARGIN:5px;PADDING:3px;color:#fff
+}
+.row{
+    MARGIN:5px;PADDING-RIGHT:30px;
+}	
+
+#basicInfo{
+	MARGIN-LEFT:auto; MARGIN-RIGHT:auto;
+	BORDER-RIGHT: #999999 0px solid;
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 5px;
+	BACKGROUND: #A6A680;
+	PADDING-BOTTOM: 5px;
+	MARGIN: 0px auto;
+	BORDER-LEFT: #999999 0px solid; 
+	WIDTH: 700px; 
+	PADDING-TOP:5px; 
+	TEXT-ALIGN: left;
+	background-image:  url(pic.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	color: #fff;
+}
+#jobStudy{
+	MARGIN-LEFT:auto; MARGIN-RIGHT:auto;
+	BORDER-RIGHT: #999999 0px solid;
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 5px;
+	BACKGROUND: #A6A680;
+	PADDING-BOTTOM: 25px;
+	MARGIN: 0px auto;
+	BORDER-TOP: #fff 1px solid; 
+	 color: #fff;
+	WIDTH: 700px; 
+	PADDING-TOP:25px; 
+	TEXT-ALIGN: left;
+	
+}
+.job{
+   MARGIN-LEFT:150px;
+    font-size: 12px;
+	color: #fff;
+}
+
+#objective{
+	MARGIN-LEFT:auto; MARGIN-RIGHT:auto;
+	BORDER-RIGHT: #999999 0px solid;
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 8px;
+	BACKGROUND: #A6A680;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px auto; 
+	BORDER-LEFT: #999999 0px solid; 
+	WIDTH:700px; 
+	PADDING-TOP: 0px; 
+	TEXT-ALIGN: left;
+	color: #fff;
+}
+#awards {
+	MARGIN-LEFT:auto; MARGIN-RIGHT:auto;
+	BORDER-RIGHT: #999999 0px solid;
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 9px;
+	BACKGROUND: #A6A680;
+	PADDING-BOTTOM: 51px;
+	MARGIN: 0px auto; 
+	BORDER-TOP: #fff 1px solid; 
+	WIDTH: 700px; 
+	PADDING-TOP: 50px; 
+	TEXT-ALIGN: left;
+	color: #fff;
+}
+#skill {
+	MARGIN-LEFT:auto; MARGIN-RIGHT:auto;
+	PADDING-LEFT: 8px;
+    PADDING-TOP: 5px;
+	BORDER-TOP: #fff 1px solid; 
+	width: 700px;
+	background: #A6A680;
+	MARGIN: 0px auto;
+	TEXT-ALIGN: center;
+	color: #fff;
+    
+}
+#lastModified, #copyright {
+	MARGIN-LEFT:auto; MARGIN-RIGHT:auto;
+	font-size: 12px;
+	text-align: center;
+	width:700px;
+	clear: both;
+	background-color: #ffcc66;
+	
+}
+
+
+.skillset{
+    margin-left:20px;
+color: #fff;
+}
+.skill{
+    margin-left:20px;
+color: #fff;
+}
+
+
+
+.award{
+    margin-left:20px;
+color: #fff;
+}
+
+.skillList{
+    margin:0px;color: #fff;
+}
+
+.text{
+    margin: 0px;color: #fff;
+}
+.suffer{
+    margin: 0px;color: #fff;
+}
+.school{
+   margin: 0px;color: #fff;
+}
+.study{
+   margin-left: 25px;color: #fff;
+}

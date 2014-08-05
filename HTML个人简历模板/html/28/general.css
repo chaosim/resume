@@ -1,0 +1,198 @@
+/* Base */
+body {
+	background: #CCCCCC url(body_bg_001.gif);
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+a.link {
+}
+a.visited {
+}
+a.hover {
+}
+a.active {
+}
+ul {
+}
+ol {
+}
+li {
+}
+
+/* Display */
+#header {
+	background: #FFFFFF url(comm.jpg) no-repeat center bottom;
+	text-align: right;
+	margin: 0px auto;
+	padding: 0px 0px 135px;
+	width: 597px;
+	border-right: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-top: 1px solid #999999;
+}
+#title {
+	height: 2em;
+}
+#general {
+	background: #FFFFFF;
+	text-align: center;
+	margin: 0px auto;
+	padding: 20px 0px 0px;
+	width: 597px;
+	border-right: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+#realname, #titlename, #birthday, #phone, #mobile, #email, #homepage, #im{
+	text-align: right;
+	display: block;
+	width: 160px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	border: 0px;
+}
+#realnameValue, #titleValue, #birthdayValue, #phoneValue, #mobileValue, #emailValue, #homepageValue, #imValue {
+	text-align: left;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	width: 420px;
+	border: 0px;
+}
+#objective, #skillareas, #history, #awards, #lastModified {
+	background: #FFFFFF;
+	text-align: left;
+	margin: 0px auto;
+	padding: 20px 20px 0px;  /* with a bug */
+	width: 597px;
+	border-right: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+html>body #objective, #skillareas, #history, #awards, #lastModified {  /* Can't work with IE */
+	padding: 10px 20px;  /* with a bug */
+	width: 557px;
+}
+#objective h2, #skillareas h2, #history h2, #awards h2 {
+	background: url(pen.gif) no-repeat right bottom;
+	text-align: left;
+	height: 2em;  /* With a bug (2em) */
+	border-bottom: 1px dashed #999999;
+}
+html>body #objective h2 {
+	height: 1em;
+}
+#skillareas {
+}
+#history {
+}
+#awards {
+}
+#lastModified {
+	background: #FFFFFF;
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px 0px 20px;
+	height: 1em;
+	width: 597px;
+	border-top: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+#copyright {
+	background: #FFFFFF;
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px 0px 20px;
+	height: 1em;
+	width: 597px;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+
+/* Fonts */
+body {
+}
+h1 {
+}
+h2 {
+}
+h3 {
+	font: bold 1.1em/1.5em Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+p {
+}
+ul {
+}
+ol {
+}
+li {
+	font: 1em/2em Arial, Helvetica, sans-serif;
+}
+#title {
+	font: bold 1.5em/2em Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+}
+#realname, #titlename, #birthday, #phone, #mobile, #email, #homepage, #im{
+	font: bold 75%/1em Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+}
+#realnameValue, #titleValue, #birthdayValue, #phoneValue, #mobileValue, #emailValue, #homepageValue, #imValue {
+	font: 75%/1em Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+}
+#objective, #skillareas, #history, #awards {
+	font: 75%/1em Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+}
+#objective h2, #skillareas h2, #history h2, #awards h2 {
+	font-size: 150%;
+	line-height: 2em;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+#lastModified {
+	font: 75%/2em Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+}
+#copyright {
+	font: 75%/2em Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* Classes */
+.row {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 24px;
+}
+.skillset {
+}
+.skill {
+}
+.job {
+}
+.year {
+}
+.employer {
+}
+.description {
+}

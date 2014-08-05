@@ -1,0 +1,40 @@
+body { margin:0px; background:#DBCDB4 url(images/general_bg.gif) repeat-y 0px 195px;}
+h2 { display:none; }
+h3 { font:bold 16px "Times New Roman", Times, serif; padding-bottom:5px;  border-bottom:1px dashed #C7B299; }
+ol { margin:0; padding:0; text-align:center; }
+ul { margin:0; padding:0;}
+li { list-style:none; }
+div { font-size:14px; line-height:150%; letter-spacing:1px;}
+a:link { font: 12px "Times New Roman", Times, serif; color:#8C6239; text-decoration:none; }
+a:hover { font: 12px "Times New Roman", Times, serif; color:#8C6239; text-decoration:underline; }
+a:visited { font: 12px "Times New Roman", Times, serif; color:#8C6239; text-decoration:none; }
+
+#objective,#skillareas,#history,#awards
+ { padding:15px; padding-right:13%; margin-left:290px; margin-right:10px;  color:#603913; text-align:left; background:url(images/general_bgline.gif) repeat-x bottom;}
+
+#header { padding:0; height:185px; background:#A7A8A2 url(images/header_bg.jpg) no-repeat left; border-bottom:solid 1px #ffffff; }
+#header #title { display:none;}
+
+#general { float:left; position:absolute; left:5px; top:195px; margin:0; padding-top:90px; width:270px; text-align:center; background:url(images/flower_bg2.gif) no-repeat center 15px;}
+#general .row { margin:0 auto;padding:40px 0 25px; background:url(images/flower_bg.gif) no-repeat center top;  }
+#realname,#titlename,#birthday,#phone,#mobile,#email,#homepage,#im
+{ padding-bottom:5px; display:block; font:bold 12px "Times New Roman", Times, serif; color:#815A30; }
+#realnameValue,#titleValue,#birthdayValue,#phoneValue,#mobileValue,#emailValue,#homepageValue,#imValue
+{ display:block; font: 12px "Times New Roman", Times, serif; color:#8C6239; padding-bottom:10px; background:url(images/general_bgline.gif) no-repeat bottom; }
+
+#objective { text-align:center; }
+#objective p { padding-top:120px; background:url(images/objective.gif) no-repeat center top; }
+
+#skillareas ol { padding-top:120px; background:url(images/skillareas.gif) no-repeat center top; }
+#skillareas ol .skill h3 { margin-top:20px; }
+#skillareas ol .skill { }
+#skillareas ol .skill .skillset{ }
+#skillareas ol .skill .skillset li { line-height:200%; list-style:upper-roman; }
+
+#history ol { padding-top:120px; background:url(images/history.gif) no-repeat center top; }
+#history ol .job { list-style:upper-roman inside; }
+
+#awards { background:url();}
+#awards ol { padding-top:120px; background:url(images/awards.gif) no-repeat center top; }
+
+#lastModified,#copyright{ width:270px; padding-bottom:10px; text-align:center; font:bold 12px "Times New Roman", Times, serif; color:#9B744A;}

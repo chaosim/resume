@@ -1,0 +1,158 @@
+body
+	{
+	margin: 0;
+	text-align: center;
+	font-size: 9pt; font-family:Verdana; padding-left:0px; padding-top:0px; background-color:#420000;background-image:url('images/bg.jpg') 
+	}
+
+h3           { font-size: 12pt; font-family: Verdana; font-weight: bold; margin-top: 20px; 
+               margin-bottom: 0 }
+#head_welLan { color: #660000; }
+#head_welLan a:hover { color: #660000; font-size:12pt; font-weight:bold ;}
+#head_welLan a { color: #660000; font-size:12pt; font-weight:bold }
+h6           { font-size: 12pt; font-family: Verdana !important; color:#DDAAAA}
+jobtype      { color: #FF0000 }
+a   { 
+	color: #510509; text-decoration: none; font-size: 9pt; font-family: 
+               Verdana; padding: 2px 
+    }
+    
+a:hover   { 
+	color: #510509; text-decoration: underline; font-size: 9pt; font-family: 
+    Verdana; padding: 2px 
+    }
+    
+    
+h2
+	{
+	color: #000000;
+	font-size: 9pt;
+	margin-top: 20px !important; font-family:Verdana; margin-left:0 !important; margin-right:0 !important; margin-bottom:0 !important; text-align:center; text-transform:uppercase; font-weight:bold
+	}
+
+#header, #general, #objective, #skillareas, #history, #awards, #lastModified, #copyright
+	{
+	width: 690px;
+	margin: auto;
+	text-align: left;
+	padding: 0px 
+	}
+#general, #objective, #skillareas, #history, #awards, #lastModified
+	{
+	margin-top: 15px;
+	margin-bottom: 0
+	}
+
+#header
+	{
+	/*background-color: #336;*/
+	color:#FFFFFF !important;text-align:center
+	}
+
+	#title
+		{
+		color: #fff;
+		margin: 0;
+		font-size: 200%;
+		}
+
+#general
+	{
+
+	}
+
+#row
+		{
+		border-bottom: 1px solid #f6f6f6;
+		margin-top: 0.3em; 
+		}
+
+#realname, #titlename, #birthday, #phone, #mobile, #email, #homepage, #im
+			{
+			float: left;
+			width: 30em;font-weight:bold; text-align:right; padding-right:10px
+			}
+
+#objective
+	{
+	
+	}
+
+#skillareas
+	{
+	
+	}
+
+#history
+	{
+	
+	}
+
+#awards
+	{
+	
+	}
+
+#lastModified
+	{
+	text-align: right;
+	font-size: 80%;
+	font-family: arial;
+	}
+
+#copyright
+	{
+	padding:0px; color: #000000;
+	font-size: 80%;
+	font-family: arial;
+	text-align: center;
+	margin-top:20PX
+	}
+	
+#pub_title
+	{
+	
+	margin:0; color:#FFFFFF !important;
+	font-size: 9pt;
+	height:22px; font-family:Verdana; font-weight:bold; padding-left:0; padding-top:2px; word-spacing:0; width:685px; text-transform:uppercase
+	}
+	
+#pub_body
+	{
+	border-left:1px solid #BA1010; border-right:1px solid #BA1010; color: #000000;
+	font-size: 9pt;
+	margin: 0 !important;
+	width:685px; padding-left:4px; padding-right:4px; padding-top:1px; padding-bottom:1px; background-color:#ffffff; filter:alpha( enabled=true,style=1,finishopacity=60,opacity=80,startx=0,starty=0,finishx=0,finishy=100); font-family:Verdana; margin-top:0 !important
+	}
+	
+#pub_bottom
+	{
+	color: #336;
+	font-size: 135%;
+	margin: 0 !important;
+	
+	}
+	
+#pub_title_lftSquar
+	{
+	padding:0; margin:0; color: #333366;
+	font-size: 135%;
+	width:17px; height:22px; float:left; word-spacing:0;
+	text-align: left;float: left
+	}
+	
+#pub_title_minContant
+	{
+	margin:0;
+	font-size: 135%;
+	background-image:url('images/tit.gif'); float:left; height:22px; word-spacing:0;
+	text-align: center;float: left; width:685px; padding-left:0
+	}
+	
+#pub_title_rgtSquar
+	{
+	margin:0; color: #333366;
+	font-size: 135%;
+	padding-left:0; padding-top:0; width:17px; height:22px; word-spacing:0;
+	text-align: right;float: right
+	}

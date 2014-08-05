@@ -1,0 +1,174 @@
+body
+{
+	margin-top: 30px;
+	background: #F5F5F5;
+	text-align: center;	
+	color: #333;
+	font: 9pt "ËÎÌו";
+}
+ol
+{
+	margin: 0 16px 0 16px;
+	padding: 0 0 10px 0;
+	text-align: left;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	list-style-type: none;
+}
+label
+{
+	margin: 2px;
+}
+A{text-decoration: none; color: #777;}
+A:hover{color: #f00;}
+
+h1,h2,h3
+{
+	font: 9pt "ËÎÌו";
+	font-weight: bold;
+}
+h1
+{
+	color: #CCC;
+}
+h2
+{
+	padding: 2px 0 0 4px;
+	background: URL(bg_04.jpg) repeat-y #F5F5F5;
+}
+h3
+{
+	margin: 0;
+	padding: 10px 0 10px 50px;
+	text-align: left;
+	display: list-item;
+}
+
+#header,#general,#objective,#history,#skillareas,#awards,#copyright
+{
+	margin: 0 auto;
+	width: 610px;	
+}
+#general,#objective,#history,#skillareas,#awards
+{
+	padding: 0;
+	display: block;
+	background: URL(bg_02.gif) repeat-y #FFF;
+}
+
+#header
+{
+	height: 55px;
+	background: URL(bg_01.jpg) #333;
+}
+#title
+{
+	float: left;
+	margin: 40px 0 0 0;
+	padding-left: 15px;
+}
+
+#general
+{
+	padding: 10px 0 5px 0;
+	height: 115px;
+}
+.row
+{
+	float: left;
+	width: 300px;
+	padding: 0 0 5px 15px;
+}
+#realname,#titlename,#birthday,#phone,#mobile,#email,#homepage,#im
+{
+	float: left;
+	width: 90px;
+	height: 19px;
+	margin: 0;
+	padding: 2px 0 0 0;
+	overflow: hidden;
+	border: 1px solid #999;
+	font-weight: bold;
+	background: URl(bg_03.jpg) #F5F5F5;
+}
+#realnameValue,#titleValue,#birthdayValue,#phoneValue,#mobileValue,#emailValue,#homepageValue,#imValue
+{
+	float: left;
+	width: 189px;
+	height: 19px;
+	margin: 0;
+	padding: 2px 0 0 5px;
+	overflow: hidden;
+	text-align: left;
+	border: 1px solid #999;
+	border-left: none;
+}
+
+#objective
+{
+	height: 38px;
+}
+h2,#objective p
+{
+	width: 578px;
+	margin: 0 auto;
+	border: 1px solid #999;
+	text-align: left;
+}
+#objective p
+{
+	border-top: 0;
+	border-bottom: 0;
+	padding: 5px 0 5px 4px;
+	text-indent: 24px;
+}
+.skillset
+{
+	margin: 0 0 0 65px;
+	padding: 0;
+	list-style-position: inside;
+	list-style-image: URL(bg_05.gif);
+	list-style-type: decimal;
+}
+
+.job
+{
+	height: 85px;
+	display: block;
+}
+.year,.date
+{
+	float: left;
+	padding: 0 0 0 50px;
+}
+.employer,.organization
+{
+	float: left;
+	margin: 2px 0 0 10px;
+}
+.description
+{
+	clear: left;
+	margin-left: 50px;
+	width: 478px;
+	color: #666;
+	text-indent: 24px;
+}
+
+#lastModified
+{
+	position: absolute;
+	top: 65px;
+	left: 65%;
+	padding: 2px;
+	color: #FFF;
+	font-size: 7pt;
+	border: 1px dotted #333;
+	background: #333;
+}
+#copyright
+{
+	padding-top: 3px;
+	height: 28px;
+	background: URL(bg_06.gif) #999;
+}

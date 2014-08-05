@@ -1,0 +1,55 @@
+/* CLASS 目录集 tesion 编译与制作. */
+/* 使用 class="className className ..." */
+/* 文字定义 */
+.b	{ font-weight: bold /* 加粗 */ }
+.u	{ text-decoration: underline /* 下划线 */ }
+.i	{ font-style: italic /* oblique 斜体 */ }
+.s	{ text-decoration: line-through /* 删除线 */ }
+.hand	{ cursor: pointer }
+/* 区域 */
+.center	{ /* 居中 */ text-align: center }
+.Top	{ /* 居上 */ vertical-align: top }
+.Bottom	{ /* 居下 */ vertical-align: bottom }
+.Left	{ /* 居左 */ text-align: left }
+.Right	{ /* 居右 */ text-align: right }
+/* 浮动与定位 */
+.fl	{ float: left /* 浮动向左 */ }
+.fr	{ float: right /* 浮动向右 */ }
+.fn	{ float:none /* 浮动默认 */ }
+.cl	{ clear: left }
+.cr	{ clear: right }
+.cb	{ clear: both /* 不允许有浮动对象 */ }
+/* W3C- 十六色色盘 (除Transparent) 常用颜色 */
+.Red	{ color: #FF0000 }
+.Black	{ color: #000000 }
+.White	{ color: #FFFFFF }
+.Yellow	{ color: #ffff00 }
+.Lime	{ color: #00ff00 }
+.Aqua	{ color: #00ffff}
+.Blue	{ color: #0000ff}
+.Fuchsia	{ color: #ff00ff}
+.Gray	{ color: #808080}
+.Silver	{ color: #c0c0c0}
+.Maroon	{ color: #800000}
+.Olive	{ color: #808000}
+.Green	{ color: #008000}
+.Teal	{ color: #008080}
+.Navy	{ color: #000080}
+.Purple	{ color: #800080}
+/* 其他数据 */
+.hidden	{ visibility: hidden }
+.nonefont	{ font-size: 0px }
+.padding	{ padding: 20px }
+.padding_p	{ margin-bottom: 15px }
+/* 颜色 */
+.BA	{ color: #BA3E0A }
+/* 一象素的间隔 */
+.p1,p2	{ height: 1px; font-size: 0px }
+/* 定义 页面固定 705 px */
+.width	{ width: 705px; /* Mozilla */ MARGIN: 0 auto }
+.all	{ width: 100% }
+.text	{ line-height: 18px }
+.big	{ font-size: 14px }
+.small	{ font-size: 10px }
+/* 注释: 样式表里有标识 Mozilla ， 代表该样式是为了让 Mozilla 浏览器浏览正常而附加。 IE 一般不用加此样式 */
+/* 注释: Opera ， 代表该样式不支持 Opera 浏览器 */

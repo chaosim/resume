@@ -1,0 +1,122 @@
+body
+	{
+	background-color: #eee;
+	margin: 10px;
+	text-align: center;
+	font-size: 95%;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+h2
+	{
+	color: #336;
+	font-size: 135%;
+	margin: 0 !important;
+	border: 1px solid #ADC7FF;
+	width: 160px;
+	font-weight: bold;
+	background-color: #ADC7FF;
+	text-align: center;
+	}
+
+#header, #general, #objective, #skillareas, #history, #awards, #lastModified, #copyright
+	{
+	width: 660px;
+	margin: auto;
+	text-align: left;
+	background-color: #fff;
+	padding: 20px;
+	}
+#general, #objective, #skillareas, #history, #awards, #lastModified
+	{
+	border-right: 2px solid #ccc;
+	border-left: 2px solid #ccc;
+	margin-top: 0;
+	margin-bottom: 0;
+	
+	}
+
+#skillareas, #history, #awards
+    {
+	background-image: url(../img/bg.jpg);
+	}
+#header
+	{
+	border: 2px solid #ccc;
+	border-bottom-width: 0;
+	background-image: url(../img/title.gif);
+	background-repeat: repeat;
+	}
+
+	#title
+		{
+		color: #fff;
+		margin: 0;
+		font-size: 200%;
+		}
+
+	.row
+		{
+	margin-top: 0em;
+	background-color: #F7FFFF;
+	border: 1px solid #ADC7FF;
+		}
+
+		#realname, #titlename, #birthday, #phone, #mobile, #email, #homepage, #im
+			{
+	float: left;
+	width: 10em;
+	background-color: #DEE7FF;
+	text-align: center;
+	margin: 0px 4px 0px 0px;
+	border-top: 1px none #ADC7FF;
+	border-right: 1px solid #ADC7FF;
+	border-bottom: 1px none #ADC7FF;
+	border-left: 1px none #ADC7FF;
+			}
+
+#history
+	{
+	clear: right;
+	
+	}
+
+#lastModified
+	{
+	text-align: right;
+	font-size: 80%;
+	font-family: arial;
+	}
+
+#copyright
+	{
+	border: 2px solid #ccc;
+	border-top-width: 0;
+	color: #fff;
+	font-size: 80%;
+	font-family: arial;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-image: url(../img/title.gif);
+	}
+a {
+	text-decoration: none;
+	color: #0000FF;
+}
+a:hover {
+	color: #FF0000;
+}
+.skillset {
+	margin: 0px;
+	padding: 10px;
+}
+.year {
+	float: left;
+	margin-right: 200px;
+}
+.date {
+	float: left;
+	padding-right:130px;
+	
+}

@@ -1,0 +1,203 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #337e61;
+	margin: 20px 0;
+	text-align: center;
+	color: #152628;
+	font-size: 11px;
+}
+a {
+	color: #152628;
+	font-size: 1.15em;
+	font-style: italic;
+	text-decoration: underline;
+}
+a:link, a:visited {
+	font-weight: normal;
+}
+a:hover {
+	font-weight: bold;
+}
+#header, #general, #objective, #skillareas, #history, #awards, #lastModified, #copyright {
+	width: 720px;
+	margin: 0 auto;
+	text-align: left;
+	border-left: 8px solid #f3fff4;
+	border-right: 8px solid #f3fff4;
+}
+#header {
+	background: url(ui/1/header.gif);
+	height: 200px;
+	border-top: 8px solid #f3fff4;
+}
+#header h1#title {
+	position: relative;
+	top: 5px;
+	left: 50px;
+	color: #ddfbb2;
+	font-size: 18px;
+	margin: 0;
+}
+#general {
+	background: #86be76;
+	border-top: 1px solid #f3fff4;
+	border-bottom: 1px solid #f3fff4;
+}
+#general .row {
+	margin: 5px 20px;
+}
+#general .row #realname, #general .row #titlename, #general .row #birthday, #general .row #phone, #general .row #mobile, #general .row #email, #general .row #homepage, #general .row #im {
+	float: left;
+	width: 140px;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+}
+#general .row #realnameValue, #general .row #titleValue, #general .row #birthdayValue, #general .row #phoneValue, #general .row #mobileValue, #general .row #emailValue, #general .row #homepageValue, #general .row #imValue {
+	color: #000;
+	text-decoration: underline;
+}
+#objective h2, #skillareas h2, #history h2, #awards h2 {
+	position: relative;
+	margin: 0;
+	top: 20px;
+	left: 20px;
+	font-size: 18px;
+}
+#objective {
+	background: url(ui/1/ui.gif);
+	height: 100px;
+	color: #f3fff4;
+	border-bottom: 1px solid #f3fff4;
+}
+#objective p {
+	position: relative;
+	top: 10px;
+	left: 20px;
+	color: #ddfbb2;
+	font-size: 16px;
+	font-weight: bold;
+}
+#skillareas {
+	background: #92DCAF;
+	color: #152628;
+	border-bottom: 1px solid #f3fff4;
+}
+#skillareas ol {
+	margin: 30px;
+	padding: 0;
+	list-style-type: upper-roman;
+}
+#skillareas ol li.skill {
+	margin: 0 40px;
+	font-size: 13px;
+	padding: 0;
+}
+#skillareas ol li.skill h3 {
+	color: #152628;
+	font-size: 13px;
+	margin: 10px 0;
+}
+#skillareas ol li.skill ul.skillset {
+	margin: 0;
+	padding: 0;
+	list-style-type: lower-alpha;
+}
+#skillareas ol li.skill ul.skillset li {
+	margin: 5px 40px;
+	padding: 0;
+	color: #000;
+	text-decoration: underline;
+}
+#history {
+	background: #152628 url(ui/2/grid.gif);
+	color: #f3fff4;
+	border-bottom: 1px solid #f3fff4;
+}
+#history ol {
+	margin: 30px;
+	padding: 0;
+	list-style-type: upper-roman;
+}
+#history ol li.job {
+	margin: 0 40px;
+	font-size: 13px;
+	padding: 0;
+}
+#history ol li.job h3 {
+	color: #f3fff4;
+	font-size: 13px;
+	margin: 10px 0;
+}
+#history ol li.job div.year {
+	float: left;
+	color: #ddfbb2;
+	font-size: 13px;
+	font-weight: bold;
+}
+#history ol li.job div.employer {
+	color: #ddfbb2;
+	float: right;
+	width: 440px;
+}
+#history ol li.job p.description {
+	clear: both;
+	color: #ddfbb2;
+	margin: 0;
+	padding: 5px 0 5px 140px;
+	text-decoration: underline;
+}
+#awards {
+	background: #41B8AC;
+	color: #152628;
+	border-bottom: 1px solid #f3fff4;
+}
+#awards ol {
+	margin: 30px;
+	padding: 0;
+	list-style-type: upper-roman;
+}
+#awards ol li.award {
+	margin: 0 40px;
+	font-size: 13px;
+	padding: 0;
+}
+#awards ol li.award h3 {
+	color: #152628;
+	font-size: 13px;
+	margin: 10px 0;
+}
+#awards ol li.award div.date {
+	float: left;
+	color: #000;
+	font-size: 13px;
+	font-weight: bold;
+	width: 140px;
+}
+#awards ol li.award div.organization {
+	float: left;
+	color: #000;
+}
+#awards ol li.award p.description {
+	clear: both;
+	color: #000;
+	margin: 0;
+	padding: 5px 0 5px 140px;
+	text-decoration: underline;
+}
+#lastModified {
+	color: #f3fff4;
+	background: url(ui/1/btm.gif);
+	height: 179px;
+	text-align: right;
+}
+#copyright {
+	color: #f3fff4;
+	font-size: 12px;
+	text-align: right;
+	border-bottom: 8px solid #f3fff4;
+	margin-top: -20px;
+}

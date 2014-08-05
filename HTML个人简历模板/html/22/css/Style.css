@@ -1,0 +1,40 @@
+/* CSS ver.02 Document by tesion. And IE5.5+ Only used! ZH-CN USER */
+/* Power by Lan.D Network : www.ldn.com.cn / www.netjoin.net / www.sokool.cn */
+/* Contact Tesion: webmaster@ldn.com.cn */
+/* WebSite Code by Yet! Contact His: administrator@ldn.com.cn */
+/* 浏览器使用文字显示的大小失效, 文字定义为 10 - 12px */
+/* Html 全局定义 */
+HTML	{ /* 设置页面 */ padding: 0 }
+BODY	{ /* 页面间隔 */ margin: 0; border-style: none; /* 背景 */ background-color: #EEEEEE ; /* 文字样式 */ COLOR: #333333; font: 11px Tahoma; text-decoration: none }
+/* margin and padding 依次为 上,左,下,右 */
+/* 文字与超连接默认样式 */
+A	{ color: #333333; text-decoration: none }
+A:hover	{ color: #0099FF; text-decoration: underline }
+A:active	{ color: #663399; text-decoration: none }
+/* Tbale Style */
+TABLE,TR,TD	{ /*width: 100%;*/ font-size: 12px }
+/* 图片样式 */
+img	{ border-style: none; margin: 0px;/* IE vertical-align: middle */ }
+/* 注释 */
+#read	{ position: absolute; visibility: hidden }
+/* 部分定义参见 class 目录集 Screen.css */
+.nav_width	{ width: 150px }
+.nav_line	{ width: 5px; font-size: 0px }
+/* 世界上最疯狂的列表菜单 tesion.Chou 教授设计(哈哈) 起源 Mozilla 思路 */
+	#nav, #nav ul	{ margin: 0; padding: 0; list-style: none }
+	#nav img	{ padding-right: 5px }
+	#nav li { display: inline; padding: 0; margin: 0 }
+	#nav li a:active { /* 敲击在当在此目录时 */ display: block; padding: 6px 10px; font-weight: bold; color: #666 }
+	#nav li a { display: block; padding: 6px 10px; text-decoration: none; background: #EDF2F2; border-bottom: 1px solid #ddd; border-top: 1px solid #fff; border-right: 1px solid #ddd }
+	#nav li a:hover { background: #E0E9E9 }
+	#nav li li a { padding: 4px 8px 4px 20px }
+	#nav li li.small a { padding: 4px 8px 4px 8px; font-size: 12px; text-align: center }
+	/* 内容 */
+	#content	{ width: 525px; border-bottom: 1px solid #ddd; border-top: 1px solid #fff; border-right: 1px solid #ddd; border-left: 1px solid #FFF; padding: 6px 10px; background: #EDF2F2 }
+	#content h1	{ font: 18px Arial; color: #666666; font-weight: bold; text-align: right }
+	h2	{ font: 14px Arial; color: #999; font-weight: bold }
+	h	{ margin: 0 }
+/* 注释: 样式表里有标识 Mozilla ， 代表该样式是为了让 Mozilla 浏览器浏览正常而附加。 IE 不用加此样式 */
+/* 注释: 定位的BUG ， 此举动解除了 Mozilla | Opera 的臭虫 IE。 IE 不用加此样式 */
+/* 注释: 标识为 Opera 的代表 Opera 浏览器不支持而取消的样式。 IE | Mozilla 支持此样式 */
+/* 注释: IE 表示规范的编写需要谦容IE时附加的对其他浏览器不产生任何作用的样式 */

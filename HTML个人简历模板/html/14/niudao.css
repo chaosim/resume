@@ -1,0 +1,187 @@
+/* CSS Document */
+
+body {
+	MARGIN: 0px auto;
+	
+	
+	TEXT-ALIGN: center;
+	width:713px;
+	font-size: 12px;
+	color: #333333;
+	background-color: #D9D9D9;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+A.link {
+	
+}
+A.visited {
+	
+}
+A.hover {
+	
+}
+A.active {
+	
+}
+UL {
+    list-style: none;
+	margin: 0px;
+	padding: 0px;    
+	
+}
+OL {
+    margin-left: 5px;
+	TEXT-ALIGN: left;
+}
+LI {
+    font-size: 12px;
+	TEXT-ALIGN: left;
+}
+H1{
+	font-size: 12px;
+    TEXT-ALIGN: left;
+}
+h2{
+    margin:0px;font-size: 12px;TEXT-ALIGN: left;
+}
+h1, h3, p {
+	margin:5px;
+	font-size: 12px;
+	TEXT-ALIGN: left;
+}
+h3{
+   margin:5px;
+	font-size: 12px;
+	TEXT-ALIGN: left;
+}
+#row{
+    MARGIN:5px
+}
+#header {
+	BORDER-RIGHT: #999999 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #999999 0px solid; PADDING-LEFT: 0px; BACKGROUND:#ffcc66; PADDING-BOTTOM: 10px;PADDING-TOP:10px; MARGIN: 0px; BORDER-LEFT: #999999 0px solid; BORDER-BOTTOM: #000 0px solid;WIDTH: 713px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+#title {
+	TEXT-ALIGN: center
+}
+
+#realname, #titlename, #birthday, #phone, #mobile, #email, #homepage, #im
+{
+   WIDTH:100px; HEIGHT: 10px;TEXT-ALIGN: left;font-size: 12px;MARGIN:0px;PADDING-TOP:2px;background-color: #ccc;
+}
+.row{
+    MARGIN:5px;PADDING-RIGHT:30px;
+}	
+#realnameValue, #titleValue, #birthdayValue, #phoneValue, #mobileValue, #emailValue, #homepageValue, #imValue
+{
+    HEIGHT: 10px;TEXT-ALIGN: left;font-size: 12px;MARGIN:0px;PADDING-TOP:2px;
+}
+#imValue{
+    width:10px
+}
+.row{
+    MARGIN:5px
+}
+#general{
+	FLOAT:left;
+	BORDER-RIGHT: #999999 0px solid;
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 5px;
+	BACKGROUND: #7B96AB;
+	PADDING-BOTTOM: 68px;
+	MARGIN: 0px auto;
+	BORDER-LEFT: #999999 0px solid; 
+	WIDTH: 350px; 
+	PADDING-TOP:59px; 
+	TEXT-ALIGN: left;
+	background-image:  url(pic.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+#history{
+	FLOAT:left;
+	BORDER-RIGHT: #999999 0px solid;
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 5px;
+	BACKGROUND: #33ff66;
+	PADDING-BOTTOM: 25px;
+	MARGIN: 0px auto;
+	BORDER-LEFT: #999999 0px solid; 
+	 
+	WIDTH: 350px; 
+	PADDING-TOP:25px; 
+	TEXT-ALIGN: left;
+	
+}
+#objective{
+	FLOAT:right;
+	BORDER-RIGHT: #999999 0px solid;
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 8px;
+	BACKGROUND: #ffff66;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px auto; 
+	BORDER-LEFT: #999999 0px solid; 
+	WIDTH: 350px; 
+	PADDING-TOP: 0px; 
+	TEXT-ALIGN: left;
+	
+}
+#awards {
+	FLOAT:right;
+	BORDER-RIGHT: #999999 0px solid;
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 9px;
+	BACKGROUND: #fff;
+	PADDING-BOTTOM: 51px;
+	MARGIN: 0px auto; 
+	BORDER-LEFT: #999999 0px solid; 
+	WIDTH: 349px; 
+	PADDING-TOP: 50px; 
+	TEXT-ALIGN: left;
+}
+#skillareas {
+	PADDING-LEFT: 8px;
+	FLOAT:right;
+	BORDER-LEFT: #999999 0px solid; 
+	width: 350px;
+	background: #ffff66;
+	MARGIN: 0px auto;
+	TEXT-ALIGN: center;
+    
+}
+#lastModified, #copyright {
+	MARGIN-LEFT:auto; MARGIN-RIGHT:auto;
+	font-size: 12px;
+	text-align: center;
+	width:713px;
+	clear: both;
+	background-color: #ffcc66;
+	color: #000;
+}
+
+
+.skillset{
+    margin-left:20px
+
+}
+.skill{
+    margin-left:20px
+
+}
+
+.job{
+
+    margin-left:20px
+}
+
+.award{
+    margin-left:20px
+
+}
+
+.skillset{
+    margin-left:10px
+}
+
+
+

@@ -1,0 +1,138 @@
+body
+	{
+	background-image: url("images/bg_image.gif"); 
+	background-repeat: repeat-y;
+	background-position: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 95%;
+	font-size: 11px;
+	color:#336699;
+	}
+.skill, .job
+	{
+	margin-top: 10px;
+	}
+li
+	{
+	margin-top:5px;
+	}
+li.skill
+	{
+	color:#336699;
+	}
+.skillset
+	{
+	color:#336699;
+	list-style-type :square;
+	}
+A:link, A:active
+	{
+	color: #336699;
+	text-decoration: none;
+	}
+A:visited
+	{  
+	color: #336699;;
+	text-decoration: line-through;
+	}
+A:hover
+	{
+	color: #FFcc33;
+
+	}
+h3
+	{
+	color:#336699;
+	font-size: 135%;
+	}
+h2
+	{	
+	background-image:url("images/arrow.gif");
+	background-repeat:no-repeat;
+	font-size:25px;
+	width:250px;
+	height:25px;
+	text-indent:28px;
+	vertical-align : middle;
+	color:#FFcc33;
+	}
+#lastModified
+	{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+#header
+	{
+	position:relative;
+ 	TOP: 20px;
+	background: url("images/top2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+             	height:275px;
+	}
+#title
+	{
+	position:relative;
+	TOP: +80px;
+	text-align : center;
+	text-shadow: red 5px -5px;
+	color: white;
+	font-size: 400%;
+	}
+#general
+	{		
+	position:relative;
+	TOP: 20px;
+	left:20%;
+	width:200px;
+	font-size:13px;
+	}
+#objective
+	{		
+	position:relative;
+	TOP:50%;
+	left:20%;
+	}
+#skillareas
+	{		
+	position:relative;
+	TOP: -20%;
+	left:45%;
+	width:300px;
+	}
+#history
+	{
+	position:relative;
+	top:-5%;
+	Left:45%;
+	}
+#awards
+	{		
+	position:relative;
+	TOP: -10%;
+	left:20%;
+	width:200px;
+
+	}
+
+#realname, #titlename, #birthday, #phone, #mobile, #email, #homepage, #im
+	{
+	color:#FFcc33;
+	}
+#lastModified
+	{
+	position:relative;
+	TOP: -2%;
+	text-align: center;
+	font-size: 12px;
+
+	}
+#copyright
+	{
+	position:relative;
+	TOP: -2%;
+	font-size: 12px;
+	text-align: center;
+	}

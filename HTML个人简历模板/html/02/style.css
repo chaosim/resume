@@ -1,0 +1,79 @@
+/* comfill@163.com 2004 10 01 */
+
+body{
+font-family:Verdana,"ËÎÌו",sans-serif;
+text-align:center;
+background-color: #f0f0e7;
+}
+#main{
+width: 680px;
+margin: auto;
+padding: 10px;
+text-align:left;
+}
+#left{
+float:left;
+background-color:#ffffff;
+height: 565px;
+width: 350px;
+}
+#ltop{
+height:10px;
+margin: 10px;
+background: url(blue.gif) repeat-x;
+}
+.text{
+height:525px;
+margin:0px 10px 10px 10px;
+background-color:#f8f8f0;
+}
+.title{
+background-color: #ffffff;
+font-size:14px;
+height:25px;
+font-weight: bold;
+border-bottom: 3px solid #D0D0B0;
+}
+.abc{
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+}
+.abc li{
+margin: 0px 10px 0px 40px;
+padding: 0px;
+font-size:12px;
+color:#333333;
+line-height:20px;
+}
+.abc li.tit{
+font-size:12px;
+font-weight: bold;
+margin:10px;
+color:#000000;
+}
+#about{
+padding: 15px 0px 10px 10px;
+margin: 0px;
+background-color:#eeeeee;
+list-style-type: none;
+}
+#about li{
+margin: 0px 10px 0px 20px;
+padding: 0px;
+font-size:12px;
+color:#1C1C11;
+line-height:20px;
+}
+
+#right{
+height: 565px;
+width: 320px;
+background-color: #ffffff;
+float: right;
+}
+#rtop{
+height:10px;
+margin: 10px;
+background: url(green.gif) repeat-x;
+}

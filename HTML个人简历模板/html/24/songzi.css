@@ -1,0 +1,148 @@
+body
+	{
+	background-color: #fff;
+	margin: 2em;
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	}
+
+h2
+	{
+	color: #336;
+	font-size: 130%;
+	background-color:#ccc;
+	margin: 0 !important;
+	margin-top: 20px;
+	}
+
+h3
+    {
+    font-size:100%;
+	}
+
+#header, #general, #objective, #skillareas,  #lastModified, #copyright
+	{
+	margin: auto;
+	text-align: left;
+	background-color: #fff;
+	padding: 8px;
+	}
+#general,  #history, #awards, #lastModified
+	{
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+
+#header
+	{
+	border: 2px solid #ccc;
+	border-bottom-width: 0;
+	background-color: #cd3301;
+	font-weight:bold;
+	width:100%;
+		}
+
+	#title
+		{
+		color: #fff;
+		margin: 0;
+		font-size: 200%;
+		}
+
+#general
+	{
+  float:left;
+  width:32%;
+  height:537px;
+  border-left:2px solid #ccc;
+  background-image: url('sunflower.jpg');
+  background-repeat: no-repeat;
+  background-position:20% 75%;
+	}
+
+	.row
+		{
+		border-bottom: 1px solid #f6f6f6;
+		margin-top: 1em;
+		}
+
+		#realname, #titlename,#birthday,  #phone, #mobile, #email,#homepage,#im
+			{
+			float: left;
+			width: 8em;
+			}
+           #imValue
+            {
+            font-size:93%;
+			}
+#objective
+	{
+    float:left;
+    height:65px;
+	width:30%;
+	margin: auto;
+	text-align: left;
+	background-color: #fff;
+	padding: 10px;
+   	}
+
+#history
+    {
+    height:230px;
+	float:left;
+	width:29.5%;
+	margin: auto;
+	text-align: left;
+	background-color: #fff;
+	padding: 10px;
+    }	
+
+ #awards
+    {
+    float:left;
+	height:120px;
+	width:30%;
+	margin: auto;
+	text-align: left;
+	background-color: #fff;
+	padding: 10px;
+	}	
+ 
+ #skillareas
+    {
+	margin: auto;
+    float:right;
+	width:30%;
+	height:537px;
+    border-left: 1px solid #000;
+    border-right:2px solid #ccc;
+    }
+       
+#lastModified
+	{
+	clear:both;
+	text-align: right;
+	font-size: 80%;
+	font-family: arial;
+	width:100%;
+	border-top: 1px solid #000;
+    border-right:2px solid #ccc;
+    border-left:2px solid #ccc;
+    background-color: #fff;
+	}
+
+#copyright
+	{
+	clear:both;
+	border: 2px solid #ccc;
+	border-top-width: 0;
+    background-color: #cd3301;
+	color: #fff;
+	font-size: 100%;
+	font-family: arial;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width:100%;
+    }

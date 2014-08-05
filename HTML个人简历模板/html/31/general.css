@@ -1,0 +1,109 @@
+body{
+	font-size:12px;
+	background: #FFF;
+	margin: auto;
+	text-align: center;
+	width:499px;
+	font-family: 'ËÎÌו',arial,verdana,sans-serif;
+}
+#header{
+	height:214px;
+	border-bottom:15px solid #F0F0F0;
+	background: url(images/header1.jpg) no-repeat bottom;
+}
+#title{
+	display:none;
+}
+#general{
+	height: 119px;
+	background: url(images/general.jpg) no-repeat 19px 0px;
+	margin-top: 15px;
+	padding: 36px 0px 0px 28px;
+}
+.row{
+	padding:0px;
+	float:left;
+	height:20px;
+	line-height:20px;
+	color:#666;
+	text-align: left;
+	width:220px;
+}
+#objective{
+	height: 72px;
+	background: url(images/objective.jpg) no-repeat 19px 0px;
+}
+h2{display:none;}
+#objective p{text-align: left;text-indent:2em;}
+#skillareas{
+	height: 400px;
+	background: url(images/skillareas.jpg) no-repeat 19px 0px;
+}
+ol{
+	padding:0px;
+	margin:0px;
+}
+
+
+h3{
+	margin:12px;
+	padding-left:2em;
+	font-size:12px;
+	font-weight:bold;
+}
+.skill, .job, .award{
+	line-height:18px;
+	list-style-type: none;
+	background:url(images/1.gif) no-repeat;
+}
+.skillset{
+	padding-left:2em;
+	margin:0px;
+}
+.skillset li{
+	margin:0px;
+	padding:0px;
+	padding-left:1em;
+	list-style-type: none;
+	background:url(images/li.gif) no-repeat 0px 4px;
+	height:20px;
+}
+
+
+#history{
+	height: 200px;
+	background: url(images/history.jpg) no-repeat 19px 0px;
+}
+.year, .date{
+	float:left;
+	height:20px;
+	margin-left:1em;
+}
+.employer, .organization{font-weight:bold;color:#FF8000;height:20px;}
+.description{margin-top:10px;padding:0px;text-indent:2em;line-height:18px;}
+
+
+#awards{
+	height: 161px;
+	background: url(images/awards.jpg) no-repeat 19px 0px;
+}
+
+#lastModified{
+	width:489px !important;
+	height:26px;
+	line-height:26px;
+	text-align:right;
+	padding-right:10px;
+	background: url(images/lastModified.jpg);
+}
+#copyright{
+	height:26px;
+	line-height:26px;
+}
+
+#general ,#objective ,#skillareas ,#history ,#awards{
+	margin-top: 15px;
+	padding: 36px 28px 0px 31px;
+}
+#objective ,#skillareas ,#history ,#awards{text-align: left;}
+#header ,#general ,#objective ,#skillareas ,#objective ,#skillareas ,#history ,#history ,#awards ,#lastModified ,#copyright{width:499px;}

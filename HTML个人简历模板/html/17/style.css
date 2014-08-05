@@ -1,0 +1,41 @@
+body { margin: 0; text-align:center; background:#EFF4FF url(images/body_bg.jpg) repeat-x fixed;}
+div { font:14px Arial, Helvetica, sans-serif; letter-spacing:1px;}
+h2 { display:none;}
+h3 { font:bold 15px "Times New Roman", Times, serif; color:#A0410D; letter-spacing:2px; }
+ol { margin:0; padding:70px 30px 0 50px; list-style:none; }
+a:link { color:#598527; text-decoration:none;}
+a:hover { color:#598527; text-decoration:underline;}
+a:visited { color:#598527; text-decoration:none;}
+
+#header,#general,#objective,#skillareas,#history,#awards,#lastModified,#copyright
+{ margin:0 auto; width:700px; text-align:left; padding:15px 0px; border:1px solid #CCDCF7; border-width:0 1px; }
+
+#header { height:168px; padding:0; background:#ffffff url(images/top.jpg) no-repeat center top; border:1px solid #CCDCF7; border-bottom:0px }
+#header #title { display:none;}
+
+#general { background:#ffffff url(images/general_bg.gif) no-repeat 85% bottom;}
+#general .row { margin:0px 45px; padding:13px 0 2px 10px; border-bottom:1px dashed #cccccc; }
+#realname,#titlename,#birthday,#phone,#mobile,#email,#homepage,#im
+{ width:100px; font: bold 14px Arial, Helvetica, sans-serif; color:#A0410D; text-align:right; }
+
+#objective { background:#ffffff url(images/objective_bg.gif) no-repeat 85% bottom;}
+#objective p { padding:80px 0 0 45px;letter-spacing:2px; color:#A0410D; background:url(images/objective.gif) no-repeat 20px top;}
+
+#skillareas { background:#ffffff url(images/skillareas_bg.gif) no-repeat 85% bottom; }
+#skillareas ol { padding-top:50px; background:url(images/skillareas.gif) no-repeat 20px top; }
+#skillareas ol .skill { padding-top:20px; }
+#skillareas ol .skill .skillset{ margin:0px; padding-left:20px;  list-style:url(images/li.gif);}
+#skillareas ol .skill .skillset li { line-height:200%; border-bottom:1px dashed #cccccc; }
+
+#history { background:#ffffff url(images/history_bg.gif) no-repeat 85% 85%; }
+#history ol { background:url(images/history.gif) no-repeat 20px top; }
+#history div { line-height:200%; border-bottom:1px dashed #cccccc; }
+
+#awards { background:#ffffff url(images/awards_bg.gif) no-repeat 85% bottom; }
+#awards ol { background:url(images/awards.gif) no-repeat 20px top;}
+#awards div,#awards p { line-height:200%; border-bottom:1px dashed #cccccc;}
+
+#lastModified { text-align:center; font-size:12px; color:#A0410D; background:#ffffff; }
+
+#copyright { height:150px; font-size:12px; color:#A0410D; text-align:center;
+border:1px solid #CCDCF7; border-top:0; background:#ffffff url(images/bottom.jpg) no-repeat center bottom;}

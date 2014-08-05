@@ -1,0 +1,168 @@
+/*luokun主样式表*/
+IMG  {BORDER: 0px;}
+html {min-width: 616px;}
+body {
+MARGIN: 0px;
+PADDING: 0px; 
+BORDER: 0px;
+COLOR: #333;
+FONT-SIZE:12px;
+LINE-HEIGHT:150%;
+TEXT-ALIGN: center;
+BACKGROUND: #FFFFFF repeat left top;
+FONT-FAMILY: 'Lucida Grande','Lucida Sans Unicode','宋体','新宋体',arial,verdana,sans-serif;
+}
+.textthick1 {
+	font-size: 12px;
+	line-height: 12px;
+	color: #5B5B5B;
+	text-decoration: none;
+
+}
+#luokun {}
+a {MARGIN: 0px;PADDING:0px;BORDER:0px;}
+a:link {COLOR:#60A179;TEXT-DECORATION:none;}
+a:visited{COLOR:#666;TEXT-DECORATION: none;}
+a:hover{COLOR:#3AAD7E;TEXT-DECORATION: underline;}
+.clearall{CLEAR:both;display:none;}
+/*made by luokun*/
+#index { MARGIN: 72px 0px 0px 0px; 
+PADDING:0px;
+WIDTH: 616px; 
+BACKGROUND: #FFFFFF no-repeat left top; 
+HEIGHT:368px;
+}
+
+#bg { MARGIN: 120px 0px 0px 0px; 
+PADDING:0px;
+WIDTH: 616px; 
+BACKGROUND: url(bg.jpg) no-repeat left top; 
+HEIGHT:368px;
+}
+
+#head { MARGIN: 0px; 
+PADDING:0px;
+WIDTH: 616px; 
+BACKGROUND: transport no-repeat left top; 
+HEIGHT:40px;
+}
+
+
+
+#menu{ 
+MARGIN: 0px 0px 0px 189px; 
+PADDING:0px 0px 0px 0px; 
+BORDER-RIGHT: #666 0px dashed;
+BORDER-BOTTOM: #666 0px solid;
+BORDER-LEFT: #666 0px dashed;
+BORDER-TOP: #666 0px dashed;
+WIDTH: 385px; 
+HEIGHT:40px;
+TEXT-ALIGN: right;
+BACKGROUND: transport no-repeat right bottom; 
+}
+
+#middle { MARGIN: 0px; 
+PADDING:0px;
+WIDTH: 616px; 
+BACKGROUND: transport no-repeat left top; 
+HEIGHT:300px;
+}
+
+#m1{ FLOAT: left; 
+MARGIN: 0px 0px 0px 0px; 
+PADDING: 0px; 
+BORDER-RIGHT: #666 0px solid;
+BORDER-BOTTOM: #666 0px solid;
+BORDER-LEFT: #666 0px solid;
+BORDER-TOP: #666 0px solid;
+WIDTH: 190px; 
+HEIGHT:270px;
+BACKGROUND: transport no-repeat right top; 
+}
+
+
+#photo{ MARGIN: 30px 0px 0px 28px; 
+PADDING:0px;
+WIDTH: 142px; 
+BACKGROUND: transport no-repeat left top; 
+HEIGHT:228px;
+}
+
+#m2{ FLOAT: right; 
+MARGIN: 0px 0px 0px 0px; 
+PADDING:0px 0px 0px 0px; 
+BORDER-RIGHT: #666 0px dashed;
+BORDER-BOTTOM: #666 0px solid;
+BORDER-LEFT: #666 0px dashed;
+BORDER-TOP: #666 0px dashed;
+WIDTH: 410px; 
+HEIGHT:300px;
+TEXT-ALIGN: left;
+BACKGROUND: transport no-repeat right bottom; 
+}
+
+
+#js{ 
+MARGIN: 9px 24px 9px 0px; 
+PADDING: 0px; 
+BORDER-RIGHT: #666 0px solid;
+BORDER-BOTTOM: #666 0px solid;
+BORDER-LEFT: #666 0px solid;
+BORDER-TOP: #666 0px solid;
+WIDTH: 396px; 
+TEXT-ALIGN: left;
+BACKGROUND: transport no-repeat left top; 
+HEIGHT:300px;}
+
+
+#lk1{ FLOAT: left; 
+MARGIN: 9px 0px 0px 0px; 
+PADDING: 0px; 
+BORDER-RIGHT: #666 0px solid;
+BORDER-BOTTOM: #666 0px solid;
+BORDER-LEFT: #666 0px solid;
+BORDER-TOP: #666 0px solid;
+WIDTH: 180px; 
+HEIGHT:300px;
+TEXT-ALIGN: left;
+BACKGROUND: transport no-repeat right top; 
+}
+
+
+
+#lk2{ FLOAT: right; 
+MARGIN: 9px 24px 0px 0px; 
+PADDING:0px 0px 0px 0px; 
+BORDER-RIGHT: #666 0px dashed;
+BORDER-BOTTOM: #666 0px solid;
+BORDER-LEFT: #666 0px dashed;
+BORDER-TOP: #666 0px dashed;
+WIDTH: 180px; 
+HEIGHT:300px;
+TEXT-ALIGN: left;
+BACKGROUND: transport no-repeat right bottom; 
+}
+
+
+#foot { MARGIN: 0px; 
+PADDING:0px;
+WIDTH: 616px; 
+BACKGROUND: transport no-repeat left top; 
+HEIGHT:30px;
+}
+
+
+
+#txt{ 
+MARGIN: 6px 0px 0px 0px; 
+PADDING:0px 0px 0px 0px; 
+BORDER-RIGHT: #666 0px dashed;
+BORDER-BOTTOM: #666 0px solid;
+BORDER-LEFT: #666 0px dashed;
+BORDER-TOP: #666 0px dashed;
+WIDTH: 616px; 
+HEIGHT:30px;
+TEXT-ALIGN: center;
+BACKGROUND: transport no-repeat right bottom; 
+}

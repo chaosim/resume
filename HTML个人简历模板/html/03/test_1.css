@@ -1,0 +1,122 @@
+body {
+	background-color: #63617b;
+	margin: 0;
+	padding:0 10px 15px 10px;
+	text-align: center;
+	font-size: 75%;
+	line-height:150%;
+	font-family:"ËÎÌו",Verdana, Arial, Helvetica, sans-serif
+}
+p {
+	line-height:150%
+}
+a {
+	text-decoration: none;
+	color: #336;
+}
+a:hover { 
+	color:#f7941c
+	}
+h1 {
+	display:block;
+	font-size:1.5em;
+	line-height:2em;
+	margin:0;
+	padding:0;
+	background:#336;
+	border-bottom:4px solid #8c8ea5;
+	border-top:2px solid #f7941c
+}
+h2 {
+	color: #336;
+	font-size: 1.3em;
+	margin: 0;
+	display:inline;
+	padding:0.2em 1em 0.1em 1em;
+	border-left:6px solid #8c8ea5;
+	border-right:3px double #8c8ea5;
+	background:#eee;
+}
+h3 {
+	font-size:1.2em;
+}
+ol {
+	background:#f7f3f7;
+	border:1px dotted #ccc;
+	padding:10px;
+	padding-left:30px;
+	list-style-type:square ;
+}
+ol li {
+	margin-bottom:1.5em
+}
+ul {
+	padding:0
+}
+ol li ul li {
+	margin:0
+}
+#objective p {
+	background:#f7f3f7;
+	border:1px dotted #ccc;
+	padding:10px;
+	margin-left:40px;
+}
+#header {
+	width:660px;
+	padding:10px 1px 6px 1px;
+	background:#ccc;
+	border-top:10px dashed #ccc;
+}
+#header h1#title {
+	color:#fff
+}	
+#general, #objective, #skillareas, #history, #awards, #lastmodified, #copyright
+{
+	width: 660px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	background-color: #fff;
+	border-right: 6px solid #ccc;
+	border-left: 6px solid #ccc;
+}
+.row {
+	margin-top: 0.3em;
+}
+#realname, #titlename, #birthday, #phone, #mobile, #email, #homepage, #im
+{
+	float: left;
+	width: 10em;
+	text-align: right;
+	border-top:1px solid #ccc;
+	border-left:6px solid #8c8ea5;	
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;	
+	background:#eee;
+	color:#336;
+	font-weight:bold;
+}
+#realnamevalue,#titlevalue,#birthdayvalue,#phonevalue,#mobilevalue,#emailvalue,#homepagevalue,#imvalue
+{
+	border-bottom:1px dashed #336;
+	padding-left:4px;
+}
+#objective,#skillareas,#history,#awards {
+	border-top:3px dashed #ccc;
+}
+#lastmodified {
+	text-align: right;
+	font-family:Verdana,"ËÎÌו", Arial, Helvetica, sans-serif;
+}
+#copyright
+	{
+	border: 1px solid #ccc;
+	background-color: #336;
+	color: #fff;
+	font-family:Verdana,"ËÎÌו", Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top:6px solid #ccc;
+}

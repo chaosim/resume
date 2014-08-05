@@ -1,0 +1,125 @@
+body{
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	background-color: #888888;
+}
+
+p,ol{
+	margin: 0;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+	font-family: Monotype Corsiva;
+}
+a:visited {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+a:active{
+	color: #ff0000;
+}
+
+#header,#copyright{
+	width: 680px !important;
+	width: 700px;
+	border: 6px solid #efefef;
+	background-color: #cccccc;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+}
+
+#header{
+	letter-spacing: 2px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#copyright{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+#general,#objective,#skillareas,#history,#awards,#lastModified{
+	background-color: #ffffff;
+	border-left: 6px solid #f1f1f6;
+	border-right: 6px solid #f1f1f6;
+	width: 680px !important;
+	width: 700px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+}
+
+#general{
+	font-size: 13px;
+	letter-spacing: 2px;
+}
+
+#general .row{
+	width: 400px;
+	padding-top: 3px;
+	border-bottom: 1px solid #eeeeff;
+}
+
+#objective p{
+	padding-left: 50px;
+}
+
+h1{
+	margin: 0px;
+	font-size: 20px;
+	font-family: ºÚÌå;
+}
+
+h2{
+	margin: 0px;
+	font-size: 16px;
+	font-family: ºÚÌå;
+	font-weight: normal;
+	letter-spacing: 2px;
+	background-image: url("images/divider.gif");
+	background-repeat: no-repeat;
+	padding-top: 12px;
+	padding-left: 12px;
+}
+
+h3{
+	margin: 0px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+ol{
+	padding-left: 30px;
+	list-style-type: decimal;
+}
+
+ol ul li{
+	list-style : url(images/list.gif);
+	font-weight: normal;
+}
+
+#lastModified{
+	text-align: right;
+	padding-top: 10px;
+}
+
+.year,.date{
+	color: #0099ff;
+}
+
+.description{
+	letter-spacing: 2px;
+	text-indent : 2em;
+}

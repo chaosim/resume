@@ -1,0 +1,145 @@
+body {
+    font-family: 'Open Sans','Myriad Pro','Myriad',sans-serif;
+    color: #1D1313;
+    font-weight: 300;
+    width:1200px;
+    margin: 10px;
+    color: #333333;
+    line-height:240%;
+}
+h1, h2, h3, h4, ul, li {
+    font-family: 'Old Standard TT',serif;
+}
+p{ text-align:left;
+   margin: 2px 0 2px 0;
+   padding: 0px 0 0px 0;
+}
+div{
+    align:left;
+    text-align:left;
+}
+#head-bar{
+    height:10px;
+}
+#header {
+	width: 500px;
+    height: 60px;
+	color: #000000;
+    margin: 40px auto 10px;
+	padding: 40px 0 0 0;
+	text-align: left;
+    font-size: 40;
+}
+.splitter{
+    width:1200px;
+    height:2px;
+    color:#000000;
+    background-color: #729d86;
+}
+#title{
+    font-size:48px;
+    position: absolute;
+    top:10;
+    left: 240px;
+}
+.title-comment{
+    margin:0px;
+    font-style:italic;
+    font-size:20;
+}
+#info {
+    position: absolute;
+    font-size: 24;
+    top: 0;
+    left: 400;
+	margin: 5px 2px 2px 2px;
+    padding: 1px 2px 0px 2px
+	width: 640px;
+	text-align: left;
+}
+.info-item {
+    margin: 0 auto 0;
+    width: 600px;
+    text-align: left; /*justify;*/
+    padding: 2 0 0 0;
+}
+#address{
+    /*margin-left:180;*/
+}
+
+#info p {
+    display: inline-block;
+    margin: auto 4px 0 4px;
+}
+
+.toplevel{
+    text-align:left;
+    left: 0;
+}
+h2{
+    font-size: 40;
+    font-weight:bold;
+    text-align:left;
+    margin: 2px 0 2px 0;
+    padding: 2px 0 2px 0;
+    background-color: #7affa3;
+}
+h3{
+    font-weight:bold;
+    font-size: 30;
+    text-align:left;
+    background-color: #a2fffa;
+
+}
+span, .project-item a, .project-item span{
+    display:inline;
+    font-size:24;
+}
+#taijilang{
+    display:inline;
+}
+.project-item li{
+    margin:0 0 0 20px;
+    padding:0 0 0 0;
+}
+div > p, .level2 > p, ul{
+    font-size:24;
+}
+ul{
+    text-align:left;
+    align: left;
+    left:0;
+    margin:0px;
+    padding:0px;
+}
+li{
+    margin:0 0 0 20px;
+}
+em{
+    font-weight:bold;
+}
+.comment{
+    font-style:italic;
+    font-family: SimKai;
+    font-size:18px;
+}
+.desc-comment{
+    font-style:italic;
+    font-family: SimKai;
+    font-size:18px;
+}
+#copyright {
+	margin: auto;
+	width: 670px;
+	padding: 0px;
+	color: #666666;
+}
+a{
+    color:blue;
+    font-size:24;
+    display:block;
+}
+a:link 		{color: #2d49ff; text-decoration: none;}
+a:visited	{color: #b42569; text-decoration: underline;}
+a:hover	{color: #37c3ff; text-decoration: underline;}
+a:active	{color: #FF0000; text-decoration: none;}

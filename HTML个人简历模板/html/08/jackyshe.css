@@ -1,0 +1,176 @@
+html body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/bg.gif);
+}
+
+#header{
+	display: none;
+	margin: -200px;
+	height: 0px;
+}
+
+#basicInfo {
+	height: 344px;
+	width: 778px;
+	background-image: url(images/headerbg.gif);
+	margin:0px;
+	padding:0px;
+}
+
+.basicInfoStyle {
+	color: #000000;
+	font-size: 14px;
+	line-height: 20px;
+	list-style: disc;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-left: 340px;
+	padding-top: 20px;
+	padding-left: 200px;
+	background-image: url(images/photo.jpg);
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+#skill {
+    margin-top: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 390px;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#skill h2 {
+	width: 45px;
+}
+
+.skillStyle {
+	width: 250px;
+}
+
+#skill ol{
+     width: 230px;
+}
+
+#skill ul{
+	list-style-type: none;
+	padding-left: 10px;
+	margin-left: 0px;
+	margin-top: -15px;
+	margin-bottom: 10px;
+	list-style-position: outside;
+}
+
+#jobStudy {
+	width: 270px;
+	background-image: url(images/gzjlbg.gif);
+	background-repeat: no-repeat;
+	font-size: 12px;
+	position: absolute;
+	top: 352px;
+	left: 254px;
+	margin: 0;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-left: 20px;
+}
+
+#jobStudy h2 {
+	width: 120px;
+}
+
+#jobStudy ol {
+	width: 250px;
+}
+
+#jobStudy li h3 {
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+	list-style-position: outside;
+}
+
+#awards {
+	width: 254px;
+	left: 524px;
+	top: 352px;
+	position: absolute;
+	margin: 0;
+	padding-left: 15px;
+}
+
+#awards h2 {
+	width: 80px;
+
+}
+
+#awards li h3 {
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+	list-style-position: outside;
+}
+
+#footer {
+	background-color: #000000;
+	margin: 0px;
+	padding: 10px;
+	height: 30px;
+	width: 100%;
+	border-width: 1px;
+	border-top-style: solid;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+#lastModified {
+	padding-top: 10px;
+}
+
+h2 {
+	background-color: #336633;
+	font-size: 14px;
+	font-family: "宋体";
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+h3 {
+	font-size: 14px;
+	font-family: "宋体";
+	color: #000000;
+}
+
+ol {
+	list-style-position: inside;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color: #333333;
+}
+
+ol li{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+a {
+	text-decoration:underline;
+	color:#728569;}
+a:hover {
+	text-decoration:underline;
+	color:#900 !important;
+	font-size: 14px;
+}
+a:visited {
+	text-decoration:underline;
+	color:#6C7A70;}
