@@ -1,0 +1,353 @@
+<html></html><style>/* clearfix */
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+.container:after {
+    clear: both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.container {
+    zoom: 1;
+}
+body {
+    font-family: 'Open Sans','Myriad Pro','Myriad',sans-serif;
+    color: #1D1313;
+    font-weight: 300;
+}
+h1, h2, h3, h4, ul dl dt {
+    font-family: 'Old Standard TT',serif;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+    background: #fff;
+    border: solid #d22042;
+    border-width: 2px 0 0 0;
+    text-align: left;
+}
+.resume {
+    position: relative;
+    padding: 10px 20px;
+}
+blockquote a {
+    color: #1D1313;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    transition: color 0.3s linear;
+}
+blockquote a:hover {
+    color: #d22042;
+}
+a {
+    color: #d22042;
+}
+a[href$='.pdf'] {
+    display: inline-block;
+    background: #1D1313;
+    color: white;
+    padding: 6px 12px;
+    margin-bottom: 6px;
+    text-decoration: none;
+}
+blockquote {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+    text-align: right;
+}
+hr:nth-of-type(1) {
+    margin-top: 32px;
+}
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 18px auto;
+    width: 100%;
+    clear: both;
+    border: none;
+    border-top: 1px solid #CCC;
+    font-size: 1px;
+    line-height: 0;
+    overflow: visible;
+    page-break-after: avoid;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+h3 {
+    margin: 0;
+    padding: 0 0 .5em;
+    font-size: 150%;
+    font-style: italic;
+    font-weight: normal;
+}
+p {
+    margin: .6em 0 16px;
+    padding: 0;
+    display: block;
+    font-size: 104%;
+    line-height: 24px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    margin: 0;
+    padding: 0;
+}
+ul li p {
+    margin: 1em 0.5em;
+    line-height: 120%;
+}
+ul dl {
+    margin: .3em 0 0;
+    padding: 0;
+    width: 100%;
+}
+ul dl dt {
+    font-size: 100%;
+}
+ul dl dd {
+    margin: 0 0 1em;
+    padding: 0 2em 0 0;
+    font-size: .8em;
+    line-height: 1.5em;
+}
+ol {
+    margin: 0;
+    padding: 0 0 .75em;
+    width: 84%;
+    display: inline-block;
+}
+ol li {
+    margin: 0 0 0 1em;
+    padding: 0;
+    width: 100%;
+    float: left;
+    list-style: none;
+    line-height: 24px;
+    font-size: 14px;
+}
+dl {
+    display: inline-block;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+}
+dl dt {
+    margin: 0;
+    padding: 0;
+    font-size: 140%;
+}
+dl dd {
+    margin: 0 0 1.5em;
+    padding: 0;
+    font-size: 80%;
+    line-height: 1.4em;
+}
+dl strong {
+    display: block;
+}
+dl em {
+    display: block;
+    font-size: 110%;
+    margin: .15em 0 .5em;
+    font-style: bold;
+}
+#footer {
+    display: none;
+}
+#footer + p {
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+}
+@media screen {
+    body {
+        padding: 0;
+    }
+    .container {
+        width: 100%;
+    }
+}
+@media (min-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+    .resume {
+        margin: 0 auto;
+        padding: 40px 50px;
+        width: 912px;
+    }
+    blockquote {
+        top: 40px;
+        right: 50px;
+        position: absolute;
+    }
+    h1 {
+        margin-top: 0;
+        font-size: 44px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: normal;
+    }
+    h2 {
+        text-transform: uppercase;
+        font-style: italic;
+        letter-spacing: 2px;
+        font-weight: normal;
+    }
+    h3 {
+        float: left;
+        width: 16%;
+    }
+    h3 ~ p {
+        float: left;
+        margin-left: 16%;
+    }
+    h3 + p {
+        margin-left: inherit;
+        float: left;
+        width: 84%;
+    }
+    ul li {
+        width: 28%;
+        float: left;
+    }
+    ul dl dt {
+        font-size: 122%;
+        font-weight: normal;
+        margin-bottom: 0.75em;
+    }
+    ul dl dd {
+        padding: 0 4em 0 0;
+    }
+    ol {
+        float: left;
+        margin: 0.6em 0 0;
+    }
+    ol li {
+        width: 33%;
+        margin: 0;
+    }
+    ol li:nth-child(3n) {
+        width: 34%;
+    }
+    ol li:nth-child(1),
+    ol li:nth-child(2),
+    ol li:nth-child(3) {
+        border-top: none;
+    }
+    dl {
+        margin: 0.5em 0 0;
+    }
+    dl strong {
+        float: right;
+        margin-top: -2em;
+    }
+    dl em {
+        font-size: 130%;
+        font-style: normal;
+    }
+}
+@media (max-width: 1000px) {
+    blockquote {
+        top: 25px;
+        right: 50px;
+        position: absolute;
+    }
+    h1 {
+        margin-top: 0.5em;
+    }
+    ol {
+        margin: 0 0 0 2em;
+        padding-bottom: 0;
+        width:100%;
+    }
+    ol li {
+        width: 33%;
+        margin: 0;
+    }
+    ol li:nth-child(1),
+    ol li:nth-child(2) {
+        border-top: none;
+    }
+    ul li {
+        width: 33%;
+        float: left;
+    }
+    p {
+        margin-left: 25px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    p strong, p em {
+        font-size: 17px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 625px) {
+    ul li {
+        width: 100%;
+    }
+    ul br:nth-of-type(1) {
+        display: none;
+    }
+    ul a {
+        line-height: 130%;
+    }
+    blockquote {
+        float: right;
+        position: static;
+    }
+}
+@media (max-width: 625px) {
+    p {
+        margin-left: 5px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    p strong, p em {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    ol li {
+        width: 50%;
+        margin: 0;
+        font-size: 12px;
+    }
+}
+@media print {
+    .container {border-top:none;}
+    .not-printed {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+}
+@page {
+    size: auto;
+    margin: 10mm;
+}
+</style><body><div id="head"><h1>曹星明</h1><div id="info"><p>男</p><p>43岁</p><div id="address"><div><span>籍贯</span><span>湖南益阳</span></div><div><span>居地</span><span>河南信阳</span></div></div><div id="contact"><p>(+86) 135-2397-8101</p><a href="mailto:simeon.chaos@gmail.com">simeon.chaos@gmail.com</a></div></div></div><div id="edu"><h2>学历</h2><p>1989-1993：国防科技大学计算机系本科</p><p>1994-1997：空军雷达学院硕士（人工智能）</p></div><div id="job"><h2>工作</h2><p>1993-1994，1997-2009: 空军第一航空学院</p><p>2010-2013：全职研究自然语言编程</p></div><div id="project"><h2>我的项目</h2><div id="released"><h3>公开发布的项目</h3><p>taijilang：太极语言</p><p>peasy</p><div id="dao">dao：兼具lisp和prolog的特性，综合逻辑范式和函数范式于一体的解释器和编译器，基于continuation，内置解析器。<a href="https://github.com/chaosim/dao">python实现</a><a href="https://github.com/chaosim/daonode">node.js实现(使用coffee-script语言编写)</a></div></div><a href="https://github.com/chaosim/twoside">twoside</a><a href="https://github.com/chaosim/twoside">gulp-twoside</a><a href="https://github.com/chaosim/splitter">splitter</a><a href="https://code.google.com/p/pyshin/">pyshin</a><a href="https://code.google.com/p/pyshin/downloads/list">恢复被sola病毒打包成 exe的文件</a></div><div id="unreleased"><h3>未公开的项目</h3><p>seer</p><p>hopen</p></div><div id="tech"><h2>学习和使用过的web开发技术：</h2><p>expressjs：hopen中用它作为服务器端框架</p><p>angularjs：hopen的客户端框架</p><p>jade：最喜欢的模板语言。hopen就用它。可能有人注意到了：我就是喜欢缩进风格的东西：py，coffee，jade，taijilang。感谢Guido, Jeremy, TJ.</p><p>jquery：web开发者都知道</p><p>css预处理：sass</p><p>web相关测试技术<p>qunit：在seer项目中使用了qunit测试框架</p><p>hopen项目使用了karma，mocha，jasmine， chaijs，prostractor</p></p><p>持续集成<p>peasy项目使用travis.com实现了持续集成</p></p><p>工作流自动化<p>gruntjs: hopen项目使用grunt实现流程的自动化</p><p>gulpjs：因为gulp的优点，在peasy， twoside等项目中转换到了gulpjs</p></p><p>Meteor：看了一些文档，读了一些代码，好复杂，目前一点都没搞懂。</p><p>Derbyjs: 这个要简单多了。但就是比Meteor发展慢，流行度低。</p><p>zope：web框架的鼻祖，python web框架的庞然大物，所谓的where zope lead, python follow. 很令人遗憾地看到它象夕阳般离去......</p><p>web2py: 很好学好用的框架，遵循pythong带电池的哲学，用它部分地开发了seer。但是不得不说：django还是python界的主流，特别是在中国。</p></div><div id="lang"><h2>学习过的编程语言</h2><h3>长期使用的语言<p>C/C++：1993年-2007年主要使用的语言。</p><p>python：2007年-2011年主要使用的语言。</p><p>javascript：2011年至今主要使用的语言。</p><p>coffee-script：我通过coffee-script提高javascript开发效率。</p></h3><h3>熟悉的语言<p>lisp：2000年精心研究过一年，非常喜欢它的优雅和强大，然而对于以下流行的看法：lisp的强大和优美是因为它采用了sexpresion作为语法，或者说直接使用抽象语法作为具体语法，lisp的宏及其将代码作为数据的能力必须依赖于上述特征，我一直有不同的观点。我认为，lisp的语法是因为受限于当时的条件（主要是语法解析技术方面，但不限于此）自然产生的结果，并在此种背景下产生了上述迷思，即使lisp最社区最核心的人物，包括McCarthy也有可能持有这种迷思。太极语言的实现打破了上述迷思，同时也实现和证明了我的观点。因为太极语言在外部语法上和其它高级语言同样灵活，但是在内核上对待程序的内部表示比lisp自身更为lisp：从源码到目标代码的转换过程中，程序始终保持嵌套列表的形式，并且符合json的规范。因此，太极语言不但实现了完全可以和lisp相比的宏，而且在此基础上更进一步，每个程序都是自身的数据，每个程序都是自身的元程序，每个都通过运行自己的元程序产生自己的最终形式。</p><p>scheme：研读过HTDP和SICP,从中对于编程得到了最多的启发</p><p>haskell：学习过三次，但是很丢脸的是，至今没有掌握monad，说明我确实是一个数学的loser。</p><p>rebol：欣赏它的优雅精简。受它影响，太极语言最开始使用[]作为代码块定界符，发布前才改成使用更通用的{}。另外，太极语言有比rebol的parse功能更方便的定制dsl的能力。</p></h3><h3>了解过但是没有深入的语言<p>两门当前最流行也是web开发最通用的两门语言，也曾经偶尔试图进入，但是纯粹因为个人喜好没有深入：</p><p>java：一方面是觉得它太罗嗦（语法繁琐，文件夹嵌套太多层次），另一方面可能是我开始了解的时候java生态太庞杂以至于我不知道从何入手。</p><p>php：一直没有吸引我。</p></h3><h3>其它了解过的语言：<p>smalltalk：安装过squeak, 感受过它独特的风格和OO的风格。</p><p>J语言: 一门简洁的数学家的语言。谁懂R语言的，能不能解释一下为什么R语言现在能红起来，J语言依然很寂寞？</p></h3></div><div id="book"><h2>读过的一些书：</h2><p>道德经：我必须把它放在第一位。说起来别人可能不相信，我从道德经得到了最多的软件设计和编程开发方面的心得感悟，请注意，都是直接关于软件和编程，而不是关于人生或者哲学。</p><p>测试驱动开发（Kent Beck）：对于提高我的编程效率帮助最大的一本书。</p><p>拥抱极限编程(Kent Beck)：确实里面有很多东西都已经成为软件界以及我个人的日常实践。</p><p>人工智能手册：人工智能专业学生的枕边书</p><p>unixEric S.Raymond 很开眼界，很受启发</p><p>编译原理（龙书）第四版：我估计只能理解其中的百分之十，太极语言的实现大概只用到了其中的百分之一。</p><p>语言学教程：北京大学 胡壮麟等</p><p>自然语言处理综论：Daniel Jurafsky,James H.Martin等</p><p>语法哲学：丹麦</p><p>代码大全：长期的经典</p><p>on lisp: Paul Graham，The root of lisp的作者，在这本书里YCombinator的创立者对于宏有很深入的解说，</p><p>C++设计新思维-泛型编程与设计模式之应用 看的时候很震撼：原来C++还可以这样玩。后来用python的时候又很感叹：在一种环境下需要殚精竭虑的问题换个环境居然都不再成为问题。</p><p>《TCP/IP 详解卷一：协议》：我最不会的就是协议了。看了这本书的部分内容，对于各种协议我依然是一塌糊涂。</p><p>Lisp In Small Pieces: 我设计dao的时候，有什么lisp原语不会实现了，就到这本书里查代码。</p><p>重构--改善既有代码的设计  Martin Flower, 虽然我很少照搬这本书里面的重构处方，但是我越来越有一个强烈体会：值得写很多遍的代码才是有价值的代码。我为了实现解析左递归，曾经重写过不下几十次，最终我实现了Peasy。然后在Peasy的基础上，我又实现了taijilang，而在实现taijilang时，解析器部分曾经经历了很多次涉及整体的重构，包括使用对象方法、函数方法解析缩进，使用基于token的方法和不用token的处理词法，最终才实现了一个健壮、模块化，可扩展的动态解析器。</p><p>HTML & XHTML_ The Definitive Guide：要开发web应用，oreilly的这基本书应该是必读书目</p><p>The Definitive Guide to javascript</p><p>CSS: The Definitive Guide</p></div><div id="desc"><h2>自我描述</h2><p>本人性格目标明确，专注执着以至于偏执。对于已然认定之事能始终保持极大热情，甚至不惜牺牲大多数人看重的功名实利。因为前一点曾被前辈评价为“有激情”，因为后一点而做出的某些决策也曾让人觉得极其不可思议。这些方面一直明显地体现在我的经历当中。</p><p>我与计算机领域结缘于1983年国防科大发明银河计算机的新闻，这新闻令我好奇计算机和人类思维的关系。后来我有幸因此而选择了学习和从事计算机专业。</p><p>1995年硕士选题时，我因为个人对编程的某些感悟而选择了自然语言编程作为研究对象，并将这一个兴趣保持至今。2007年我开始与互联网结缘，打开了互联网思维，我领悟到无线和移动互联网将更加凶猛和广阔地渗透和冲击社会和生活，而自然语言处理已经处于成熟的前夕，必将爆发巨大的实用价值，我开始从互联网和社会化的角度重新思考自然语言编程。</p><p>在以互联网为基点探索和实现自然语言编程系统的过程中，我接触和掌握了大量web相关的技术。最终，我也发现和自信我个人已经培养出了对于新的技术趋势比较强的预见性、洞察力和敏感度。我于2007年开始接触python，为其简洁优雅所吸引，python后来一直为我的研究带来助益，同时我也得以了解LAMP开源范式，熟悉了zope，web2py等框架，发现了nltk工具包。在python环境下，我实现了一个基于web的通用信息平台的原型(seer)。07年左右，当mootools和prototype还更流行的时候，我刚接触jquery即惊叹于它的优美设计，认定它将大兴于世。12年，在nodejs成熟和angular.js兴起的阶段，我适时切入了这两个技术，掌握了MEAN(mongodb, expressjs, angularjs, nodejs)范式，并在此基础上完成了我的自然语言编程系统，该系统充分运用了MEAN全栈技术，使用了tab, tree，splitter， menu等诸多控件，并尝试多种开发方法，对比了使用和不使用angularjs，在angularjs框架下使用或不使用jquery，也试验了部分bootstrap 控件，最终当发现某些现成控件带来诸多不必要的复杂性后，大部分控件都换成了自己的简单实现。https://github.com/chaosim/splitter控件是在这个过程我实现的一个简单的多窗格分隔条的简单开源项目。同时，在考察和试用了requirejs，seajs和browserify之后，我最终在所有的前后端项目采用的都是我自己实现的一个简单工具，该工具只有约100行，1kb，能够让模块同时运行在前端和后端。javascript 发布在https://github.com/chaosim/twoside，配合此工具，我也开发了一个gulpjs的插件，gulp-twoside, 发布在https://www.npmjs.org/package/gulp-twoside。与此同时，我也被漂亮的coffee-script所吸引，coffee大大提高了我的开发效率。</p><p>发现和创造需要机遇。我从95年开始探索自然语言编程，开头十多年一直象牛一样不停寻找草料，咀嚼，消化，吸收，但是并未曾获得明确的心得感悟，更别提有什么重要发现和创造。直到2007年以后，长期的耕耘终于产出了一些果实。因为学习了大量自然语言处理方面知识和技术，同时广泛地了解和试验各种计算机语言及其设计思想、编译技术，我在这方面也有了自己的技术。2011年-2012年，我设计出了兼具lisp和prolog特性，综合逻辑范式和函数范式于一体的dao系统。我一直希望编程语言能够具有动态定制语法的能力，为实现此功能，我于2013年发现了一种新的解析器设计方案，发布了Peasy。最终，2012年，我在帮助十岁的儿子寻找更合适的编程软件时，面对孩子已经玩过很久的MIT的scratch，脑海中突然如同天启一般呈现出了我一直苦苦寻求的自然语言编程系统的整体设计思想。在基于这种设计思想实现该系统原型的过程中，命运之神又额外赐予我另一个成果：在今年3，4月份，我在使用各种web开发工具的时候，偶然地思考什么样的web框架是更好的框架。angularjs的双向绑定非常便利，我想到，如果双向绑定能够跨越前后端，应该会更加强大。我开始考虑能否自己设计一种这样的web框架。我首先的思路是要有一种合适的模板技术，我当时使用的是jade，它并没有提供我设想的这种功能。我开始比较我见到过的其它各种模板，也搜索互联网寻找其它相关的技术。然后我偶然地遇到了lispyscrip这个项目，它的实现直接触发了我的思路。我在原来实现dao的基础上很快实现了太极语言。太极语言基本上实现了我个人关于高级语言的全部期望，同时，在设计过程中，我又非常偶然而幸运地得到了一个意向不到的重大发现：强大的元编程技术。综合以下三种创新：习惯语法结合lisp内核，动态语法，元编程技术，太极语言可以说是高级语言领域自1958年John McCarthy发明lisp以来的最重大进步。虽然太极语言还刚刚问世，但是我相信它会有广阔的空间和光明的前景。</p></div></body>
