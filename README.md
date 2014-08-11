@@ -1,14 +1,8 @@
 做简历也是一件技术活。Geek自有geek的做法。
 ### 制作过程
-最开始，楼主是不想浪费时间在这件事上的。
+因为招聘网站提供的简历格式无法hold住楼主的经历，祭出DIY大法。
 
-虽然觉得招聘网站提供的简历格式完全无法hold住楼主的经历和个性，还是直接填一填招聘网站上的表格，就开始发送了。
-
-然而，靠这种方式hold不住公司。
-
-于是，楼主祭出DIY大法。
-
-第一步，先google。因为楼主前几天准备用markdown写一本书，是关于[太极语言](https://github.com/taijiweb/taijilang)的教程。刚好比较熟悉pandoc这个大杀器。还有gitbook之类的网站工具。就先搜索markdown，pdf以及简历相关的内容。找到了[这里](http://blog.sina.com.cn/s/blog_5ee56d450101dah2.html)， 还有[这里](http://sysadvent.blogspot.com/2011/12/day-14-write-your-resume-in-markdown.html)
+第一步，先google。因为本人前几天准备用markdown写一本书，是关于[太极语言](https://github.com/taijiweb/taijilang)的教程。刚好比较熟悉pandoc这个大杀器。还有gitbook之类的网站工具。就先搜索markdown，pdf以及简历相关的内容。找到了[这里](http://blog.sina.com.cn/s/blog_5ee56d450101dah2.html)， 还有[这里](http://sysadvent.blogspot.com/2011/12/day-14-write-your-resume-in-markdown.html)
 
 然而，在用pandoc做简历的过程中，发现实在是用牛刀来杀鸡..., 与它配套的CTex（有它才能解决中文问题）下载包就有1.3G。决定寻找更轻量级的解决办法。
 
@@ -33,6 +27,10 @@
 其余的，就都在[这份简历](https://github.com/chaosim/resume/blob/master/cxm-resume.pdf)里啦。
 
 项目中文件比较杂乱，因为我有意想保留相关的文件和原始的过程。
+
+**UPDATE: ** _最开始本简历没有用Ghostscript嵌入字体，因此在某些没有安装字体的环境下中文为空白或者乱码。我在网上寻求解决方法，发现是因为对方的linux系统没有安装本简历所用字体。我用中文关键字搜到的解决方案全都是在linux机器上安装字体来加以解决。这显然不适合我的需求。然后我用英文关键字搜“linux pdf font”，找到[stackoverflow的这个答案](http://stackoverflow.com/questions/12857849/how-to-repair-a-pdf-file-and-embed-missing-fonts/13131101#13131101)</a>，正好能解决我的问题。_
+
+_这个过程说明，对于web开发者，熟练的英文是必不可少的，科学使用web和google，stackoverflow等等资源也是至关重要的_
 
 当然，这个经历只是一个web前后端开发者的特殊经历。其他领域，比如UI设计者，非技术人士，等等，他们的经历，技能，以及他们追求的简历表现形式，都决定了可能需要寻找不一样的制作方法和工具。
 
@@ -61,7 +59,13 @@
     ```shell
     wkhtmltopdf resume.html resume.pdf # 必须同时有输入和输出路径
     ```
-    
+
+  * 先下载和安装ghostscript。然后用如下命令向生成好的pdf嵌入字体。  
+  **重要：没有嵌入字体，对方的系统可能将汉字显示为空白或乱码。**   
+    ```shell
+    gswin32c -sFONTPATH=C:\Windows\Fonts -o output-pdf-with-embedded-fonts.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress input-pdf-where-some-fonts-are-not-embedded.pdf
+    ```
+
 ### 致谢
 本项目源自 [徐小东的项目](https://github.com/xuxiaodong/resume)
 
