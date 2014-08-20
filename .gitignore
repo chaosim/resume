@@ -1,2 +1,3 @@
 #avoid generated and instlled files#
 node_modules
+.idea
