@@ -1,0 +1,221 @@
+htm
+  head
+    meta(http-equiv="content-type", content="text/html; charset=UTF-8")
+    title Caoxingmin's resume
+    style.
+        body {
+            /*font-family: 'Open Sans','Myriad Pro','Myriad',sans-serif;*/
+            font-family: sans-serif;
+            color: #1D1313;
+            font-weight: 300;
+        }
+        h1, h2, h3, h4, ul, li {
+          /*font-family: 'Old Standard TT',serif;*/
+          font-family: serif;
+        }
+        p{ text-align:left;
+            margin: 2px 0 2px 0;
+            padding: 0px 0 0px 0;
+        }
+        div{
+            align:left;
+            text-align:left;
+        }
+        body {
+            width:1200px;
+            margin: 10px 10px 0 30px;
+            color: #333333;
+            line-height:240%;
+        }
+        #header {
+            margin: 10px auto 20px;
+            width: 500px;
+            height: 80px;
+            color: #000000;
+            padding: 0 0 20px 0;
+            text-align: left;
+            font-size: 40;
+            boder: 4px double silver;
+        }
+        .splitter{
+            width:1200px;
+            height:2px;
+            background-color: #729d86;
+        }
+        #title{
+            font-size:48px;
+            position: absolute;
+            top:10;
+            left: 100px;
+        }
+        .title-comment{
+            margin:0px;
+            font-style:italic;
+            font-size:20;
+        }
+        #info {
+            position: absolute;
+            font-size: 24;
+            top: 0;
+            left: 500;
+            margin: 5px 2px 2px 2px;
+            padding: 1px 2px 0px 2px
+            width: 1000px;
+            text-align: left;
+        }
+        .info-item {
+            margin: 0 auto 0;
+            width: 1000px;
+            text-align: left; /*justify;*/
+            padding: 2 0 0 0;
+        }
+        #info p {
+            display: inline-block;
+            margin: auto 4px 0 4px;
+        }
+        .toplevel{
+            text-align:left;
+            left: 0;
+        }
+        h2{
+            font-size: 40;
+            font-weight:bold;
+            text-align:left;
+            margin: 2px 0 2px 0;
+            padding: 2px 0 2px 0;
+            background-color: #7affa3;
+        }
+        h3{
+            font-weight:bold;
+            font-size: 30;
+            text-align:left;
+            background-color: #a2fffa;
+        }
+        span, .project-item a, .project-item span{
+            display:inline;
+            font-size:24;
+        }
+        #taijilang{
+            display:inline;
+        }
+        .project-item li{
+            margin:0 0 0 20px;
+            padding:0 0 0 0;
+        }
+        div > p, .level2 > p, ul{
+            font-size:24;
+        }
+        ul{
+            text-align:left;
+            align: left;
+            left:0;
+            margin:0px;
+            padding:0px;
+        }
+        li{
+            margin:0 0 0 20px;
+        }
+        em{
+            font-weight:bold;
+        }
+        .comment{
+            font-style:italic;
+            font-family: SimKai;
+            font-size:18px;
+        }
+        .desc-comment{
+            font-style:italic;
+            font-family: SimKai;
+            font-size:18px;
+        }
+        #copyright {
+            margin: auto;
+            width: 670px;
+            padding: 0px;
+            color: #666666;
+        }
+        a{
+            color:blue;
+            font-size:24;
+            display:block;
+        }
+        a:link        {color: #2d49ff; text-decoration: none;}
+        a:visited    {color: #b42569; text-decoration: underline;}
+        a:hover    {color: #37c3ff; text-decoration: underline;}
+        a:active    {color: #FF0000; text-decoration: none;}
+  body
+    #header
+      #title
+        #name Caoxingming
+        p.title-comment the creator of taijilang
+      #info
+        .info-item#address
+          label age:
+          P 43
+          p |
+          label sex:
+          p male
+        .info-item
+          label native place:
+          p Yiyang, Hunan
+          p |
+          label Residence:
+          p.mostright Xingyang, Henan
+        .info-item
+          p (+86)135-2397-8101
+          p |
+          p.mostright simeon.chaos@gmail.com
+    .splitter
+    .toplevel#desc
+      h2 Self Description
+      p &nbsp;&nbsp;&nbsp;&nbsp;I have a dedicated disposition, can adhere to the objective with immense zeal after having make any decision.
+      p &nbsp;&nbsp;&nbsp;&nbsp;I knew the computer and began to be intersted in it when I was a child. I had the opportunity to study computer science when I was applying for university in 1989. I have learned  and worked on computer technology uninterruptedly since I went to the university. When I was working for my master'degree, I decided to research on natural language programming, and I have kept up exploring this field till now. In 2007, I had a chance to get in touch with some Internet companies, and that triggered my Internet mind. After that, I began to research natural language programming based on web technologies. Afterwards I had got some paid for my research. I developped the dao system, peasy, and taijilang, which were put on the github.
+      p &nbsp;&nbsp;&nbsp;&nbsp;I found more and more happiness in programming with age, because I am exploring my favorite fields, I can implement my idea faster with better tools and better skills than before.
+    .toplevel#project
+      h2 The projects I have developped
+      .level2#released
+        h3 released to the public
+        .project-item
+          a(href="https://github.com/taijiweb/taijilang") taijilang
+          span ：a new programming language with some important new features.
+        .project-item
+          a(href="https://github.com/chaosim/dao") peasy
+          span : demonstrate a simple but powerful to implement parser
+        ul.project-item <em>dao</em><span>: a functional logic solver and compiler, with builtin parser</span>
+          li.project-item
+            a(href="https://github.com/chaosim/dao") dao:
+            span  python version, only interpreter was finished.
+          li.project-item
+            a(href="https://github.com/chaosim/daonode") daonode:
+            span  node.js version(code in coffee-script)
+        .project-item
+            a(href="https://github.com/chaosim/twoside") twoside:
+            span  a module of 100loc/1kb to make modules can be used in both server side and client side.
+        .project-item
+          a(href="https://github.com/chaosim/splitter") splitter
+          span : a simple multiple panes splitter directive for angular.js, based on &nbsp;
+          a(href="https://github.com/blackgate/bg-splitter") bg-splitter.
+      .level2#unreleased
+        h3 private projects
+        p <em>seer</em>：a general information system for personal, based on internet website, development with python(started with zope, switched to web2py afterwards) + html/css/javascript. Not fully finished yet.
+        p <em>hopen</em>：a prototype system for my solution to natural language programming.
+    .toplevel#tech
+      h2 technical abilities
+      p <em>english capablity</em>：CET 6; experienced readablity on english document, api, artilcs, blog, stackoverflow，google groups; skills to search google on english web sites
+      p <em>VCS</em>: svn, git and github
+      p <em>back end</em>: node.js, express.js, mongodb/mongoose, passport.js, websocket, socket.io
+      p <em>front end</em>: angularjs, jquery, jade, css, sass
+      p <em>test, workflow, package manager</em>: qunit, karma，mocha，jasmine, chaijs, selenium+protractor, gruntjs, gulpjs, travis-ci, bower, npm
+      p <em>pythong framework and libraires</em>: zope, web2py, nltk
+      p <em>skilled languages</em>: C/C++, python, javascript, coffee-script, taijilang
+      p <em>familiared languages</em>: lisp, scheme, haskell ,rebol, golang
+  .toplevel#expect
+    h2 expectation on my job
+    p <em>industry</em>：internet/mobile internet/e-commerce
+    p <em>job title</em>：senior software engineer, system designer，front end developer, natural language process engineer, search engineer
+  .toplevel#edu
+    h2 educational background and work experience
+    p 1989-1993：bachelor in computer science of National University of Defense Technology
+    p 1994-1997：master of artificial intelligence of Radar College of Air Force
+    p 1993-1994，1997-2009: teatcher and researcher in First Aviation Institute of Air Force
+    p 2009-2013：research on natural language programming in full time on my own
